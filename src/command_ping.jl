@@ -17,5 +17,5 @@ module command_ping
         create(c, Reaction, e.message, '👍')
     end
 
-    export message_handler
+    export handler
 end
